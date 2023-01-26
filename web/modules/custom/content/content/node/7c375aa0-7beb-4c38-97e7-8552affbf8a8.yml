@@ -1,0 +1,49 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 7c375aa0-7beb-4c38-97e7-8552affbf8a8
+  bundle: article
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'article 1'
+  created:
+    -
+      value: 1674746689
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /articles/article-1
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>body of article</p>'
+      format: basic_html
+      summary: ''
+  comment:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1674746734
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0

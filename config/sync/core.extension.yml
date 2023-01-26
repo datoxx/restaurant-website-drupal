@@ -11,10 +11,12 @@ module:
   config: 0
   consumers: 0
   contact: 0
+  content: 0
   contextual: 0
   datetime: 0
   dblog: 0
   decoupled_router: 0
+  default_content: 0
   dynamic_page_cache: 0
   editor: 0
   field: 0
