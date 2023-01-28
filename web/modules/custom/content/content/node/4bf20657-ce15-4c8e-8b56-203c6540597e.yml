@@ -1,0 +1,145 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4bf20657-ce15-4c8e-8b56-203c6540597e
+  bundle: products
+  default_langcode: en
+  depends:
+    4c6a12ad-2bae-4b93-aabc-ab40d97641eb: file
+    ed6b29fd-c823-43f0-8d32-159b510954ba: file
+    3d60880e-b5e9-4888-b757-57701b8fa033: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: dishes
+  created:
+    -
+      value: 1674914649
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_category_image:
+    -
+      entity: 4c6a12ad-2bae-4b93-aabc-ab40d97641eb
+      alt: dishes
+      title: ''
+      width: 1080
+      height: 1080
+  field_category_name:
+    -
+      value: dishes
+  field_hero:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: ec3117aa-b7df-4be8-97c6-9290ec53b1ea
+          bundle: page_hero
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1674914746
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_page_cover:
+            -
+              entity: ed6b29fd-c823-43f0-8d32-159b510954ba
+              alt: 'dishes cover'
+              title: ''
+              width: 1600
+              height: 1600
+          field_page_name:
+            -
+              value: dishes
+  field_product:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 0e298b97-21ec-478f-8f4c-8b0ded3d7e64
+          bundle: menu_item
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1674914746
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_element:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 3bb87a51-961b-4644-963d-ffe96ae877c5
+                  bundle: menu_item_element
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1674914746
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_item_description:
+                    -
+                      value: 'Baguette bread , rachian ham, fig and sumach mixed strained matsoni'
+                  field_item_image:
+                    -
+                      entity: 3d60880e-b5e9-4888-b757-57701b8fa033
+                      alt: apetizer
+                      title: ''
+                      width: 900
+                      height: 1600
+                  field_item_name:
+                    -
+                      value: 'GEORGIAN BRUSCHETTA WITH FIG AND RACHIAN LORI'
+                  field_item_price:
+                    -
+                      value: '15.00'
+          field_headline:
+            -
+              value: apetizers

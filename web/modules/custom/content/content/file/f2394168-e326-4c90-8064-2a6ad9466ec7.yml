@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f2394168-e326-4c90-8064-2a6ad9466ec7
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: wine_0.png
+  uri:
+    -
+      value: 'public://2023-01/wine_0.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1555437
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1674915768

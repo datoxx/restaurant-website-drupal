@@ -1,0 +1,23 @@
+uuid: d0ab26da-18e8-44ce-9316-56087c330dc4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_email
+    - paragraphs.paragraphs_type.global_info
+id: paragraph.global_info.field_email
+field_name: field_email
+entity_type: paragraph
+bundle: global_info
+label: email
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: ' example@sicerto.com'
+  -
+    value: ' example@sicerto.ge'
+default_value_callback: ''
+settings: {  }
+field_type: string

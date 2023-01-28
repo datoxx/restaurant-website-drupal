@@ -1,0 +1,21 @@
+uuid: 96594b31-53a6-47ca-abcc-0e605834a0f5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_opening_hours
+    - paragraphs.paragraphs_type.global_info
+id: paragraph.global_info.field_opening_hours
+field_name: field_opening_hours
+entity_type: paragraph
+bundle: global_info
+label: 'opening hours'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 'Every day 12:00 to 23:00 '
+default_value_callback: ''
+settings: {  }
+field_type: string

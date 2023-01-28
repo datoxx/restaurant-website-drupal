@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f3073fce-1dc6-44af-9453-eaef47dde714
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: desert.jpg
+  uri:
+    -
+      value: 'public://2023-01/desert.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 235533
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1674916170

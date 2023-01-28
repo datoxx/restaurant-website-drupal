@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ed6b29fd-c823-43f0-8d32-159b510954ba
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: dishes_cover.jpg
+  uri:
+    -
+      value: 'public://2023-01/dishes_cover.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 307710
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1674914996

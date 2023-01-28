@@ -1,0 +1,19 @@
+uuid: 0e09dad3-5e01-48bb-aa60-3ae7fecf13b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_item_name
+    - paragraphs.paragraphs_type.menu_item_element
+id: paragraph.menu_item_element.field_item_name
+field_name: field_item_name
+entity_type: paragraph
+bundle: menu_item_element
+label: 'item name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
