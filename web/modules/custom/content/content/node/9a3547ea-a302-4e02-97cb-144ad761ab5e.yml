@@ -1,0 +1,134 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9a3547ea-a302-4e02-97cb-144ad761ab5e
+  bundle: products
+  default_langcode: en
+  depends:
+    b79e1f93-07fc-4789-a3b1-c35d568dfec5: file
+    f2394168-e326-4c90-8064-2a6ad9466ec7: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: wine
+  created:
+    -
+      value: 1674915586
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_category_image:
+    -
+      entity: b79e1f93-07fc-4789-a3b1-c35d568dfec5
+      alt: 'wine '
+      title: ''
+      width: 1376
+      height: 1383
+  field_category_name:
+    -
+      value: wine
+  field_hero:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: a1c36f75-98f0-4a3d-8b93-2f14fd693555
+          bundle: page_hero
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1674915614
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_page_cover:
+            -
+              entity: f2394168-e326-4c90-8064-2a6ad9466ec7
+              alt: wine
+              title: ''
+              width: 1376
+              height: 1383
+          field_page_name:
+            -
+              value: wine
+  field_product:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 1a6ab35c-eac2-4143-89c5-7f080c8d80c1
+          bundle: menu_item
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1674915614
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_element:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: faba0ef6-9460-44b7-9088-2e3852c5ff4c
+                  bundle: menu_item_element
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1674915614
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_item_name:
+                    -
+                      value: 'ALAVERDI TRADITION'
+                  field_item_price:
+                    -
+                      value: '25.00'
+          field_headline:
+            -
+              value: 'white wine'

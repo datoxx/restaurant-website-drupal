@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4c6a12ad-2bae-4b93-aabc-ab40d97641eb
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: dishes.jpg
+  uri:
+    -
+      value: 'public://2023-01/dishes.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 338319
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1674914908

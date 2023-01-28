@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3d60880e-b5e9-4888-b757-57701b8fa033
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: apetite.jpg
+  uri:
+    -
+      value: 'public://2023-01/apetite.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 146326
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1674915149

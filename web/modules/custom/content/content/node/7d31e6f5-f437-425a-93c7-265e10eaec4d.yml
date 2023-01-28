@@ -1,0 +1,142 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 7d31e6f5-f437-425a-93c7-265e10eaec4d
+  bundle: products
+  default_langcode: en
+  depends:
+    f3073fce-1dc6-44af-9453-eaef47dde714: file
+    f5483a82-34ac-4180-8e8a-be45d6dda877: file
+    357dd3de-8ba6-4a60-82a5-fffe806c36c1: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: deserts
+  created:
+    -
+      value: 1674916139
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_category_image:
+    -
+      entity: f3073fce-1dc6-44af-9453-eaef47dde714
+      alt: deserts
+      title: ''
+      width: 1080
+      height: 1080
+  field_category_name:
+    -
+      value: deserts
+  field_hero:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 9087c2ba-7b22-40f2-89f6-1e5f8f1fa30c
+          bundle: page_hero
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1674916170
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_page_cover:
+            -
+              entity: f5483a82-34ac-4180-8e8a-be45d6dda877
+              alt: deserts
+              title: ''
+              width: 1080
+              height: 1080
+          field_page_name:
+            -
+              value: deserts
+  field_product:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 07bc1747-c0ab-4153-abb9-23ff2e299ec3
+          bundle: menu_item
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1674916170
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_element:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 83b6eaaf-81dc-487e-9fb0-d5dea10f1e5b
+                  bundle: menu_item_element
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1674916170
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_item_image:
+                    -
+                      entity: 357dd3de-8ba6-4a60-82a5-fffe806c36c1
+                      alt: 'desert '
+                      title: ''
+                      width: 1080
+                      height: 1080
+                  field_item_name:
+                    -
+                      value: 'CHOCOLATE SOUFFLE WITH CHOCOLATE GLAZE '
+                  field_item_price:
+                    -
+                      value: '35.00'
+          field_headline:
+            -
+              value: deserts

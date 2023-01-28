@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: fb7d78c1-0964-4dbc-8402-2788f74c9b81
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Beverage-webinar-today-What-drinks-do-consumers-want_0.jpg
+  uri:
+    -
+      value: 'public://2023-01/Beverage-webinar-today-What-drinks-do-consumers-want_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 67434
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1674916014

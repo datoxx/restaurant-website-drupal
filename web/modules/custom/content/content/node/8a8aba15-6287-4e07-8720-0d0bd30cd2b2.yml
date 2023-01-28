@@ -1,0 +1,134 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8a8aba15-6287-4e07-8720-0d0bd30cd2b2
+  bundle: products
+  default_langcode: en
+  depends:
+    392fb05c-8623-40c8-ac75-b6e407053783: file
+    fb7d78c1-0964-4dbc-8402-2788f74c9b81: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: beverages
+  created:
+    -
+      value: 1674915928
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_category_image:
+    -
+      entity: 392fb05c-8623-40c8-ac75-b6e407053783
+      alt: beverages
+      title: ''
+      width: 750
+      height: 473
+  field_category_name:
+    -
+      value: beverages
+  field_hero:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 71da3c39-597a-4925-a20a-9c71e6cd8ea3
+          bundle: page_hero
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1674916001
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_page_cover:
+            -
+              entity: fb7d78c1-0964-4dbc-8402-2788f74c9b81
+              alt: beverages
+              title: ''
+              width: 750
+              height: 473
+          field_page_name:
+            -
+              value: beverages
+  field_product:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 57abc590-607a-4926-ba97-fb7efef3adf7
+          bundle: menu_item
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1674916001
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_element:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: f402a8bb-d127-4bb7-b9d6-24f9fb45b505
+                  bundle: menu_item_element
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1674916001
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_item_name:
+                    -
+                      value: 'BLACK SOUR'
+                  field_item_price:
+                    -
+                      value: '25.00'
+          field_headline:
+            -
+              value: cocktails
