@@ -1,0 +1,21 @@
+uuid: 0b375ef6-1d8a-428e-a222-caf5e14d96ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_offer_body
+    - paragraphs.paragraphs_type.offer
+  module:
+    - text
+id: paragraph.offer.field_offer_body
+field_name: field_offer_body
+entity_type: paragraph
+bundle: offer
+label: 'offer body'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

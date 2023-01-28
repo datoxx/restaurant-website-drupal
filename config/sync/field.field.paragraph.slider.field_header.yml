@@ -1,0 +1,19 @@
+uuid: 83df6cbe-6eba-4164-be23-f181f82c5d67
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_header
+    - paragraphs.paragraphs_type.slider
+id: paragraph.slider.field_header
+field_name: field_header
+entity_type: paragraph
+bundle: slider
+label: header
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

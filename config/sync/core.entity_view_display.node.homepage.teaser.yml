@@ -1,0 +1,29 @@
+uuid: 91945156-1e35-49be-81a8-788021186472
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.homepage.field_homepage_hero
+    - field.field.node.homepage.field_offers
+    - field.field.node.homepage.field_offers_background
+    - field.field.node.homepage.field_slider
+    - node.type.homepage
+  module:
+    - user
+id: node.homepage.teaser
+targetEntityType: node
+bundle: homepage
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_homepage_hero: true
+  field_offers: true
+  field_offers_background: true
+  field_slider: true
+  search_api_excerpt: true

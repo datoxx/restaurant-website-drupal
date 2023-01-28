@@ -1,0 +1,310 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d28a99c7-dff3-4a13-bcf1-a79a3381a9fb
+  bundle: homepage
+  default_langcode: en
+  depends:
+    ad21a1ff-42cc-418b-bd6f-811193eabe87: file
+    40dbcc9b-38da-4dd9-95c1-9a78729a1a14: file
+    66ce9968-bc28-4639-8281-a1d593907d96: file
+    e04d236f-5b18-43ba-99fe-43d81295c14d: file
+    205d4763-f6d3-4feb-a8ea-a7e23d5e7950: file
+    1ae4e762-c480-4637-8c04-c3f61f976109: file
+    169f3ae5-dc88-4eff-af9a-334c9c43996f: file
+    189ade72-5f3e-4415-adc0-68007bd70236: file
+    e7d3d4a0-0bcb-47b7-b848-82bbdf590107: file
+    c4200433-5960-4d9c-ae84-d61e8c89e615: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: homepage
+  created:
+    -
+      value: 1674935599
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_homepage_hero:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 7c724957-8c94-4299-958f-60e107d017f4
+          bundle: page_hero
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1674936993
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_internal:
+            -
+              uri: 'internal:/meny'
+              title: 'discover menus'
+              options: {  }
+          field_page_cover:
+            -
+              entity: ad21a1ff-42cc-418b-bd6f-811193eabe87
+              alt: hero
+              title: ''
+              width: 1920
+              height: 1080
+          field_page_name:
+            -
+              value: 'SE CORTO'
+          field_partner_link:
+            -
+              uri: 'https://examplepartner.com'
+              title: henschke
+              options: {  }
+  field_offers:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: b6280782-322f-4277-9b5a-dd29a43b6999
+          bundle: offer
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1674936304
+          behavior_settings:
+            -
+              value: {  }
+          field_offer_body:
+            -
+              value: !!binary U09QSElTVElDQVRFRCwgRUNDRU5UUklDLCBVTklRVUUgQVRITU9TUEhFUkUuIElOVEVSSU9SIERFU0lHTkVEIEJZIFRIRSBXT1JMRAJSRU5PV05FRCBJVEFMSUFOIERFU0lHTkVSUy4=
+              format: basic_html
+          field_offer_header:
+            -
+              value: 'ATHMOSPHERE '
+              format: basic_html
+          field_offer_image:
+            -
+              entity: 40dbcc9b-38da-4dd9-95c1-9a78729a1a14
+              alt: alt
+              title: ''
+              width: 2000
+              height: 1333
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: f9a12471-a216-4428-b169-12eb9730d6ec
+          bundle: offer
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1674936396
+          behavior_settings:
+            -
+              value: {  }
+          field_offer_body:
+            -
+              value: 'LIVE MUSIC EVERY WEEKEND'
+              format: basic_html
+          field_offer_header:
+            -
+              value: MUSIC
+              format: basic_html
+          field_offer_image:
+            -
+              entity: 66ce9968-bc28-4639-8281-a1d593907d96
+              alt: alt
+              title: ''
+              width: 1000
+              height: 667
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 9f33c5da-86f7-495f-99fa-4c02940c84b3
+          bundle: offer
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1674936419
+          behavior_settings:
+            -
+              value: {  }
+          field_offer_body:
+            -
+              value: 'PRIVATE SPACE FOR BUSINESS LUNCHS/DINNERS AND PARTIES'
+              format: basic_html
+          field_offer_header:
+            -
+              value: 'VIP SPACE'
+              format: basic_html
+          field_offer_image:
+            -
+              entity: e04d236f-5b18-43ba-99fe-43d81295c14d
+              alt: alt
+              title: ''
+              width: 1200
+              height: 900
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: f57c5d2c-8eab-497b-999c-4f4247d823f5
+          bundle: offer
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1674936543
+          behavior_settings:
+            -
+              value: {  }
+          field_offer_body:
+            -
+              value: 'EUROPEAN & ASIAN DISHES WITH EXPRESSED GEORGIAN CHARACTER TRAITS'
+              format: basic_html
+          field_offer_header:
+            -
+              value: CUISINE
+              format: basic_html
+          field_offer_image:
+            -
+              entity: 205d4763-f6d3-4feb-a8ea-a7e23d5e7950
+              alt: alt
+              title: ''
+              width: 1200
+              height: 801
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: c4e7b859-db18-4542-ac48-4831868b9e87
+          bundle: offer
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1674936568
+          behavior_settings:
+            -
+              value: {  }
+          field_offer_body:
+            -
+              value: ' AUTHENTIC WINES & SIGNATURE COCKTAILS'
+              format: basic_html
+          field_offer_header:
+            -
+              value: BAR
+              format: basic_html
+          field_offer_image:
+            -
+              entity: 1ae4e762-c480-4637-8c04-c3f61f976109
+              alt: alt
+              title: ''
+              width: 1000
+              height: 750
+  field_offers_background:
+    -
+      entity: 169f3ae5-dc88-4eff-af9a-334c9c43996f
+      alt: background
+      title: ''
+      width: 800
+      height: 533
+  field_slider:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 292b4507-1fc4-49c0-95fe-e7347abe6a5f
+          bundle: slider
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1674936304
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_body:
+            -
+              value: '<p>Exquisite taste and sophisticated elegance in every aspect of its environment. Created with the legacy of wine-making tradition and generous Georgian hospitality by Badagoni, coupled with modern Italian design, our guests are welcome at Si Certo.<br><br>Taste the carefully hand-crafted and assembled dishes from our chef. Quaff authentic signature cocktails from our mixologists. Sip exceptional wines from Badagoni winery.<br><br>Submerge yourself in a world of splendour and feel the all-encompassing experience, which may be subjective, just like excellent art, but it is always of finest quality. Si Certo</p>'
+              format: basic_html
+          field_gallery:
+            -
+              entity: 189ade72-5f3e-4415-adc0-68007bd70236
+              alt: alt
+              title: ''
+              width: 800
+              height: 500
+            -
+              entity: e7d3d4a0-0bcb-47b7-b848-82bbdf590107
+              alt: alt
+              title: ''
+              width: 800
+              height: 500
+            -
+              entity: c4200433-5960-4d9c-ae84-d61e8c89e615
+              alt: alt
+              title: ''
+              width: 800
+              height: 500
+          field_header:
+            -
+              value: 'SE CORTO'

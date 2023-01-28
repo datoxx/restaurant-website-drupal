@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1ae4e762-c480-4637-8c04-c3f61f976109
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: offer1.jpeg
+  uri:
+    -
+      value: 'public://2023-01/offer1.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 231027
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1674936770

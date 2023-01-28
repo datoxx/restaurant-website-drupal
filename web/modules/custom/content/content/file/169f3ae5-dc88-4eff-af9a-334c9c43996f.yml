@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 169f3ae5-dc88-4eff-af9a-334c9c43996f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: offer3_0.jpg
+  uri:
+    -
+      value: 'public://2023-01/offer3_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 53319
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1674936785

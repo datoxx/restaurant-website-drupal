@@ -1,0 +1,46 @@
+uuid: 7bbd7304-2274-4ee4-a176-398485b8679b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_offers
+    - node.type.homepage
+    - paragraphs.paragraphs_type.offer
+  module:
+    - entity_reference_revisions
+id: node.homepage.field_offers
+field_name: field_offers
+entity_type: node
+bundle: homepage
+label: offers
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      offer: offer
+    negate: 0
+    target_bundles_drag_drop:
+      global_info:
+        weight: 7
+        enabled: false
+      menu_item:
+        weight: 8
+        enabled: false
+      menu_item_element:
+        weight: 9
+        enabled: false
+      offer:
+        weight: 10
+        enabled: true
+      page_hero:
+        weight: 11
+        enabled: false
+      slider:
+        weight: 12
+        enabled: false
+field_type: entity_reference_revisions
