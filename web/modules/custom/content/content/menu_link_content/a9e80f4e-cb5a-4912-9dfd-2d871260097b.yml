@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: a9e80f4e-cb5a-4912-9dfd-2d871260097b
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    f304c496-d9cf-473c-9340-b0a574029c18: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: wine
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'internal:/category/wine'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: -49
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:f304c496-d9cf-473c-9340-b0a574029c18'
+  revision_translation_affected:
+    -
+      value: true

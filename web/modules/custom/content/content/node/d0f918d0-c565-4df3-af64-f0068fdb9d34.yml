@@ -1,0 +1,74 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d0f918d0-c565-4df3-af64-f0068fdb9d34
+  bundle: page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'menu content'
+  created:
+    -
+      value: 1674908236
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_global_info_paragraph:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: bf9105b7-57f9-4655-85f9-61bef3dd04d6
+          bundle: global_info
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1674908323
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_address:
+            -
+              uri: 'https://www.google.com/maps/place//data=!4m2!3m1!1s0x40440d33c1bb3c7f:0xbaa7c8775734beee?source=g.page.share'
+              title: '60. Merab Kostava St, Tbilisi 0179'
+              options: {  }
+          field_email:
+            -
+              value: ' example@sicerto.com'
+            -
+              value: ' example@sicerto.ge'
+          field_opening_hours:
+            -
+              value: 'Every day 12:00 to 23:00 '
+          field_phone_number:
+            -
+              value: '+995 596 84 88'
