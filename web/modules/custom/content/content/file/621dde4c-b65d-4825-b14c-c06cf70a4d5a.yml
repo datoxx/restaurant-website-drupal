@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 621dde4c-b65d-4825-b14c-c06cf70a4d5a
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: event.jpg
+  uri:
+    -
+      value: 'public://2023-01/event.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 675169
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1674938754

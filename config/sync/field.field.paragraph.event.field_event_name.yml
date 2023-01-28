@@ -1,0 +1,19 @@
+uuid: e3a6c730-933f-4ef2-9e62-6612110fa98c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_event_name
+    - paragraphs.paragraphs_type.event
+id: paragraph.event.field_event_name
+field_name: field_event_name
+entity_type: paragraph
+bundle: event
+label: 'event name'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

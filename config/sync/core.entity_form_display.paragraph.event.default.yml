@@ -1,0 +1,43 @@
+uuid: 53bb2cad-ceab-43a7-a1c0-02ee1f403645
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.event.field_event_date
+    - field.field.paragraph.event.field_event_image
+    - field.field.paragraph.event.field_event_name
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.event
+  module:
+    - datetime
+    - image
+id: paragraph.event.default
+targetEntityType: paragraph
+bundle: event
+mode: default
+content:
+  field_event_date:
+    type: datetime_default
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_event_image:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_event_name:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

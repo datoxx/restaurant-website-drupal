@@ -1,0 +1,49 @@
+uuid: b2dc9f3b-795b-4f59-a55a-e9e92af680ca
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_events
+    - node.type.events_page
+    - paragraphs.paragraphs_type.event
+  module:
+    - entity_reference_revisions
+id: node.events_page.field_events
+field_name: field_events
+entity_type: node
+bundle: events_page
+label: events
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      event: event
+    negate: 0
+    target_bundles_drag_drop:
+      event:
+        weight: 8
+        enabled: true
+      global_info:
+        weight: 9
+        enabled: false
+      menu_item:
+        weight: 10
+        enabled: false
+      menu_item_element:
+        weight: 11
+        enabled: false
+      offer:
+        weight: 12
+        enabled: false
+      page_hero:
+        weight: 13
+        enabled: false
+      slider:
+        weight: 14
+        enabled: false
+field_type: entity_reference_revisions

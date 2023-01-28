@@ -1,0 +1,25 @@
+uuid: 8a14486e-84c2-429d-afc8-c9146fee319b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.events_page.field_events
+    - field.field.node.events_page.field_events_hero
+    - node.type.events_page
+  module:
+    - user
+id: node.events_page.teaser
+targetEntityType: node
+bundle: events_page
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_events: true
+  field_events_hero: true
+  search_api_excerpt: true

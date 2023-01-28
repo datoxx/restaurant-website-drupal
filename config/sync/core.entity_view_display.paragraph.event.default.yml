@@ -1,0 +1,47 @@
+uuid: f9721068-8ce3-4ffe-9e81-e5f9a94d7459
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.event.field_event_date
+    - field.field.paragraph.event.field_event_image
+    - field.field.paragraph.event.field_event_name
+    - paragraphs.paragraphs_type.event
+  module:
+    - datetime
+    - image
+id: paragraph.event.default
+targetEntityType: paragraph
+bundle: event
+mode: default
+content:
+  field_event_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_event_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_event_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  search_api_excerpt: true

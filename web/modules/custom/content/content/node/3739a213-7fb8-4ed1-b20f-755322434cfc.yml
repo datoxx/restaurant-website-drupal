@@ -1,0 +1,98 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3739a213-7fb8-4ed1-b20f-755322434cfc
+  bundle: events_page
+  default_langcode: en
+  depends:
+    621dde4c-b65d-4825-b14c-c06cf70a4d5a: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'events page'
+  created:
+    -
+      value: 1674938570
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_events:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 010c1543-a462-4f06-a210-db583f9de75b
+          bundle: event
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1674938754
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_event_date:
+            -
+              value: '2023-01-28T20:42:50'
+          field_event_image:
+            -
+              entity: 621dde4c-b65d-4825-b14c-c06cf70a4d5a
+              alt: alt
+              title: ''
+              width: 1800
+              height: 1012
+          field_event_name:
+            -
+              value: 'Cocktail Party with Flashback'
+  field_events_hero:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 86fb7708-9285-465c-93da-d20f68d1903a
+          bundle: page_hero
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1674938754
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          field_page_name:
+            -
+              value: events

@@ -1,0 +1,41 @@
+uuid: 9090bbf0-7cf8-437a-9d1f-ba08f1ead95d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.events_page.field_events
+    - field.field.node.events_page.field_events_hero
+    - node.type.events_page
+  module:
+    - entity_reference_revisions
+    - user
+id: node.events_page.default
+targetEntityType: node
+bundle: events_page
+mode: default
+content:
+  field_events:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_events_hero:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  search_api_excerpt: true
