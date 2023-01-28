@@ -1,0 +1,63 @@
+uuid: dc98ac9d-a6bd-44b8-aa8f-9f48351d0a98
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.page_hero.field_internal
+    - field.field.paragraph.page_hero.field_page_cover
+    - field.field.paragraph.page_hero.field_page_name
+    - field.field.paragraph.page_hero.field_partner_link
+    - paragraphs.paragraphs_type.page_hero
+  module:
+    - image
+    - link
+id: paragraph.page_hero.default
+targetEntityType: paragraph
+bundle: page_hero
+mode: default
+content:
+  field_internal:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_page_cover:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_page_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_partner_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  search_api_excerpt: true

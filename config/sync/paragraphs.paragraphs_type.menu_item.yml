@@ -1,0 +1,10 @@
+uuid: 12a7cc53-e61e-4753-a1e7-a8a7680be4e7
+langcode: en
+status: true
+dependencies: {  }
+id: menu_item
+label: 'menu item'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

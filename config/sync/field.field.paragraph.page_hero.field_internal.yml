@@ -1,0 +1,23 @@
+uuid: 02481235-db1f-41cc-a91f-e858453e95ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_internal
+    - paragraphs.paragraphs_type.page_hero
+  module:
+    - link
+id: paragraph.page_hero.field_internal
+field_name: field_internal
+entity_type: paragraph
+bundle: page_hero
+label: 'internal link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 2
+  link_type: 1
+field_type: link

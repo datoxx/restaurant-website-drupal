@@ -1,0 +1,21 @@
+uuid: 847d30d7-daf6-40c7-b653-60ea007ca6cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_offer_header
+    - paragraphs.paragraphs_type.offer
+  module:
+    - text
+id: paragraph.offer.field_offer_header
+field_name: field_offer_header
+entity_type: paragraph
+bundle: offer
+label: 'offer header'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

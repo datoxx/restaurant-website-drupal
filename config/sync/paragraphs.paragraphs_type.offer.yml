@@ -1,0 +1,10 @@
+uuid: ab5956c4-6536-4265-b0c1-05d1f2a594ba
+langcode: en
+status: true
+dependencies: {  }
+id: offer
+label: offer
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

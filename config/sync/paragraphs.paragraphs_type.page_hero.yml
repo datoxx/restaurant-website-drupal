@@ -1,0 +1,10 @@
+uuid: 5c479820-66a8-4e82-add7-1993267a1802
+langcode: en
+status: true
+dependencies: {  }
+id: page_hero
+label: 'page hero'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,90 @@
+uuid: 9fd2c65e-baa9-4b23-a68b-57db9f846aba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.global_info.field_address
+    - field.field.paragraph.global_info.field_email
+    - field.field.paragraph.global_info.field_facebook
+    - field.field.paragraph.global_info.field_instagram
+    - field.field.paragraph.global_info.field_number
+    - field.field.paragraph.global_info.field_opening_hours
+    - field.field.paragraph.global_info.field_phone_number
+    - paragraphs.paragraphs_type.global_info
+  module:
+    - link
+id: paragraph.global_info.default
+targetEntityType: paragraph
+bundle: global_info
+mode: default
+content:
+  field_address:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_email:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_facebook:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_instagram:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_number:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_opening_hours:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_phone_number:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  search_api_excerpt: true
