@@ -1,0 +1,23 @@
+uuid: 99f2343a-26b2-4d0b-a3a3-629ca74a4806
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_item_price
+    - paragraphs.paragraphs_type.menu_item_element
+id: paragraph.menu_item_element.field_item_price
+field_name: field_item_price
+entity_type: paragraph
+bundle: menu_item_element
+label: 'item price'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: $
+field_type: decimal

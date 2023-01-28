@@ -1,0 +1,23 @@
+uuid: 4ae73142-eded-4f00-87a4-275ade18ca89
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_facebook
+    - paragraphs.paragraphs_type.global_info
+  module:
+    - link
+id: paragraph.global_info.field_facebook
+field_name: field_facebook
+entity_type: paragraph
+bundle: global_info
+label: facebook
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 16
+field_type: link

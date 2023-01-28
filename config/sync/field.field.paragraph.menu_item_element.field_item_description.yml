@@ -1,0 +1,19 @@
+uuid: 0f6d2af5-938d-4baa-a769-c113e176e0d6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_item_description
+    - paragraphs.paragraphs_type.menu_item_element
+id: paragraph.menu_item_element.field_item_description
+field_name: field_item_description
+entity_type: paragraph
+bundle: menu_item_element
+label: 'item description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

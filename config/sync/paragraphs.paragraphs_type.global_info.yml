@@ -1,0 +1,10 @@
+uuid: e754d343-66bd-444b-9b5b-58a3d072701c
+langcode: en
+status: true
+dependencies: {  }
+id: global_info
+label: 'global info'
+icon_uuid: null
+icon_default: null
+description: 'Information about restourant.'
+behavior_plugins: {  }
