@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ad21a1ff-42cc-418b-bd6f-811193eabe87
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: hero.jpeg
+  uri:
+    -
+      value: 'public://2023-01/hero.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 451642
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1674937115

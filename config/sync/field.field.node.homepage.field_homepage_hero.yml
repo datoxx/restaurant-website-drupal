@@ -1,0 +1,46 @@
+uuid: c31778df-1644-4377-81bd-9e5a6b38140b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_homepage_hero
+    - node.type.homepage
+    - paragraphs.paragraphs_type.page_hero
+  module:
+    - entity_reference_revisions
+id: node.homepage.field_homepage_hero
+field_name: field_homepage_hero
+entity_type: node
+bundle: homepage
+label: 'homepage hero'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      page_hero: page_hero
+    negate: 0
+    target_bundles_drag_drop:
+      global_info:
+        weight: 7
+        enabled: false
+      menu_item:
+        weight: 8
+        enabled: false
+      menu_item_element:
+        weight: 9
+        enabled: false
+      offer:
+        weight: 10
+        enabled: false
+      page_hero:
+        weight: 11
+        enabled: true
+      slider:
+        weight: 12
+        enabled: false
+field_type: entity_reference_revisions
