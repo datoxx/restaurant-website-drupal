@@ -1,0 +1,55 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 094a5cea-3240-4575-a346-cb9c40b42ba2
+  bundle: event
+  default_langcode: en
+  depends:
+    2848f900-9d84-4f2d-8493-265577ed0446: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: event
+  created:
+    -
+      value: 1675019545
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_event:
+    -
+      value: 04/11/2022
+  field_event_body:
+    -
+      value: '<p>A magical fusion of jazz, funk and electronic music at&nbsp;<a href="https://www.facebook.com/sicertobadagoni?__tn__=-]K*F">სი ჩერტო • Si Certo</a>&nbsp;on Friday, November 4th. We promise you an unforgettable musical adventure together with our artist friends – Misho Urushadze and Luka Topuria.</p><p>Save the date. The event starts from 22:00 and lasts until the late night.</p>'
+      format: basic_html
+  field_event_image_:
+    -
+      entity: 2848f900-9d84-4f2d-8493-265577ed0446
+      alt: 'event image '
+      title: ''
+      width: 1440
+      height: 754
+  field_event_main_headline:
+    -
+      value: 'Misho Urushadze and Luka Topuria'

@@ -1,0 +1,60 @@
+uuid: 5a080ae4-9675-4567-a78b-bf84e1f19b72
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.event.field_event
+    - field.field.node.event.field_event_body
+    - field.field.node.event.field_event_image_
+    - field.field.node.event.field_event_main_headline
+    - node.type.event
+  module:
+    - image
+    - text
+    - user
+id: node.event.default
+targetEntityType: node
+bundle: event
+mode: default
+content:
+  field_event:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_event_body:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_event_image_:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_event_main_headline:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  search_api_excerpt: true

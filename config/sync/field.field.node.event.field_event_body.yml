@@ -1,0 +1,21 @@
+uuid: ff2b2e4d-3acd-4017-88f8-7427811b36f6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_body
+    - node.type.event
+  module:
+    - text
+id: node.event.field_event_body
+field_name: field_event_body
+entity_type: node
+bundle: event
+label: 'event body'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

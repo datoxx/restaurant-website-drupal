@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2848f900-9d84-4f2d-8493-265577ed0446
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 310364945_504118965046146_4118136561446310401_n_0.jpg
+  uri:
+    -
+      value: 'public://2023-01/310364945_504118965046146_4118136561446310401_n_0.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 213491
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1675019551
