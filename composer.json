@@ -25,6 +25,7 @@
         "drupal/core-recommended": "^10.0.0",
         "drupal/default_content": "^2.0@alpha",
         "drupal/entity_clone": "^2.0@alpha",
+        "drupal/jsonapi_menu_items": "^1.2",
         "drupal/next": "^1.6",
         "drupal/paragraphs": "^1.15",
         "drupal/search_api": "^1.28",
